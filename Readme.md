@@ -38,3 +38,8 @@ Typst combines the power of a markup language with the convenience of a WYSIWYG 
 - Thanks to the Typst team for creating an excellent typesetting system
 
 
+## TODOs
+
+- Replace fontawesome with directly embedding SVGs. Delete the otfs.
+- Replace fonts with ones that behave the same on the webapp and on MacOS. Delete the ttfs.
+- Publish on Typst Universe.
