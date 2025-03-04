@@ -32,7 +32,7 @@
   // Helper function for section headings with improved typography - left justified with small caps
   let section-heading(title) = {
     text(font: "Spectral SC", size: 13pt, weight: "light", tracking: 1pt, fill: rgb("#212121"))[
-      #smallcaps[#title]
+      #underline(offset:4pt)[#smallcaps[#title]]
     ]
   }
   
