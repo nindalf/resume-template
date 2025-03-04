@@ -14,19 +14,6 @@ Typst is a modern markup-based typesetting system designed as an alternative to 
 
 Typst combines the power of a markup language with the convenience of a WYSIWYG editor, making document creation more efficient and less frustrating than traditional typesetting systems.
 
-## Repository Structure
-
-```
-.
-├── ada.pdf             # Example compiled resume
-├── ada.typ             # Example resume content file
-├── fonts/              # Custom fonts directory
-│   ├── icons/          # Icon fonts
-│   ├── otfs/           # OpenType fonts
-│   └── ttfs/           # TrueType fonts
-└── resume-template.typ # The template file
-```
-
 ## Getting Started
 
 ### 1. Install Typst
