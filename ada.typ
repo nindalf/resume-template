@@ -7,7 +7,8 @@
   email: "ada@futurecomputing.dev",
   phone: "+44-7710123456",
   github: "originalcoder",
-  location: "Silicon Valley via Victorian London",
+  linkedin: "ada-lovelace",
+  location: "Victorian London",
   
   work: (
     (
@@ -37,7 +38,6 @@
       description: "Fixed bugs in historical computing systems that never existed",
       highlights: (
         "Refactored Charles Babbage's original Analytical Engine designs, improving theoretical processing power by 237%.",
-        "Developed an assembly language interpreter for ENIAC that actually made sense to humans, earning the 'Impossible Achievement' award.",
         "Created a Git-like version control system for punch cards, saving approximately 17,842 historical punch cards from being accidentally dropped.",
         "Optimized the never-built Mark II calculator, eliminating the possibility of literal bugs (moths) entering the system."
       )

@@ -6,6 +6,7 @@
   email: "",
   phone: "",
   github: "",
+  linkedin: "",
   location: "",
   work: (),
   education: (),
@@ -70,19 +71,32 @@
   basic-layout(
     "Contact",
     {
+      let rows = ()
+      
+      if email != "" {
+        rows.push(fa-icon("envelope"))
+        rows.push(text(size: 9pt)[#email])
+      }
+      
+      if phone != "" {
+        rows.push(fa-icon("phone"))
+        rows.push(text(size: 9pt)[#phone])
+      }
+      
+      if github != "" {
+        rows.push(fa-icon("github"))
+        rows.push(text(size: 9pt, fill: rgb("#0277bd"))[#link("https://github.com/" + github, [#github])])
+      }
+
+      if linkedin != "" {
+        rows.push(fa-icon("linkedin"))
+        rows.push(text(size: 9pt, fill: rgb("#0277bd"))[#link("https://linkedin.com/in/" + linkedin, [#linkedin])])
+      }
+      
       grid(
         columns: (5%, 95%),
         row-gutter: 8pt,
-        // Email
-        fa-icon("envelope"),
-        text(size: 9pt)[#email],
-        // Phone
-        fa-icon("phone"),
-        text(size: 9pt)[#phone],
-        // Github
-        fa-icon("github"),
-        // Link with blue color to match the desired output
-        text(size: 9pt, fill: rgb("#0277bd"))[#link("https://github.com/" + github, [#github])],
+        ..rows
       )
     }
   )
