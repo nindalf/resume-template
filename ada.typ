@@ -5,7 +5,7 @@
   name: "Ada Lovelace-Moores",
   title: "Full-Stack Time Traveler",
   email: "ada@futurecomputing.dev",
-  phone: "+1-800-FIRST-BUG",
+  phone: "+44-7710123456",
   github: "originalcoder",
   location: "Silicon Valley via Victorian London",
   

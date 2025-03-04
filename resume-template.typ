@@ -24,7 +24,7 @@
   align(center)[
     #text(font: "Spectral", size: 24pt, weight: "regular")[#name]
     #v(2pt)
-    #text(font: "Spectral", size: 12pt, weight: "regular", fill: rgb("#424242"))[#title]
+    #text(font: "Spectral", size: 16pt, weight: "regular", fill: rgb("#424242"))[#title]
     #v(8pt)
   ]
   
@@ -37,7 +37,7 @@
   
   // Helper function for dates with compact formatting
   let date-format(start-date, end-date, duration) = {
-    text(size: 8pt, font: "Spectral SC", weight: "semibold")[
+    text(size: 9pt, font: "Spectral SC", weight: "semibold")[
       #smallcaps[#start-date – #end-date]
       #if duration != none [
         #v(2pt)
