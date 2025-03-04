@@ -1,5 +1,4 @@
-// Usage example - this would be your resume.typ file
-#import "resume-template.typ": resume
+#import "lib.typ": resume
 
 #resume(
   name: "Ada Lovelace-Moores",
