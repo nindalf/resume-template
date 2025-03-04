@@ -1,0 +1,16 @@
+[package]
+name = "ada-cv"
+version = "0.1.0"
+compiler = "0.13.0"
+entrypoint = "lib.typ"
+repository = "https://github.com/nindalf/ada-cv"
+authors = ["Krishna Sundarram <@nindalf>"]
+license = "MIT"
+description = "A clean and minimal template for your résumé or CV"
+keywords = ["cv", "resume"]
+categories = ["cv"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "thumbnail.png"
