@@ -19,7 +19,7 @@
   )
   
   // Font setup
-  set text(font: "Open Sans", size: 9pt, weight: "regular")
+  set text(font: "Noto Sans", size: 9pt, weight: "regular")
   
   // Name and title at the top
   align(center)[
@@ -31,14 +31,14 @@
   
   // Helper function for section headings with improved typography - left justified with small caps
   let section-heading(title) = {
-    text(font: "Spectral SC", size: 13pt, weight: "light", tracking: 1pt, fill: rgb("#212121"))[
+    text(font: "Spectral", size: 13pt, weight: "light", tracking: 1pt, fill: rgb("#212121"))[
       #underline(offset:4pt)[#smallcaps[#title]]
     ]
   }
   
   // Helper function for dates with compact formatting
   let date-format(start-date, end-date, duration) = {
-    text(size: 9pt, font: "Spectral SC", weight: "semibold")[
+    text(size: 9pt, font: "Spectral", weight: "semibold")[
       #smallcaps[#start-date – #end-date]
       #if duration != none [
         #v(2pt)
@@ -66,7 +66,6 @@
     )
     v(20pt) // Reduced spacing between sections
   }
-  
   // Contact section
   basic-layout(
     "Contact",
